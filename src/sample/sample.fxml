@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="insert" layoutX="132.0" layoutY="314.0" mnemonicParsing="false" onAction="#insertAction" text="Insert" />
+      <Button fx:id="delete" layoutX="348.0" layoutY="314.0" mnemonicParsing="false" onAction="#deleteAction" text="DeleteById" />
+      <Button fx:id="update" layoutX="205.0" layoutY="314.0" mnemonicParsing="false" onAction="#updateAction" text="UpdateById" />
+      <Button fx:id="search" layoutX="423.0" layoutY="314.0" mnemonicParsing="false" onAction="#SearchAction" text="SearchById" />
+      <TextField fx:id="username" layoutX="199.0" layoutY="32.0" />
+      <TextField fx:id="email" layoutX="199.0" layoutY="134.0" />
+      <TextField fx:id="address" layoutX="199.0" layoutY="179.0" />
+      <TextField fx:id="phone" layoutX="199.0" layoutY="222.0" />
+      <Text layoutX="114.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName" />
+      <Text layoutX="114.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="114.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+      <Text layoutX="114.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+      <Text layoutX="114.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" />
+      <PasswordField fx:id="password" layoutX="199.0" layoutY="87.0" />
+      <Text layoutX="124.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id :" wrappingWidth="28.324214443564415" />
+      <TextField fx:id="id" layoutX="199.0" layoutY="271.0" promptText="ID" />
+   </children>
+</AnchorPane>
